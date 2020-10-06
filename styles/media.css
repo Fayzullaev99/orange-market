@@ -1,0 +1,37 @@
+@media(max-width:1200px) {
+    .all_cards {
+        justify-content: space-around;
+    }
+
+    .card {
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width:992px) {}
+
+@media(max-width:768px) {}
+
+@media(max-width:576px) {
+    nav div {
+        flex-direction: column;
+    }
+
+    .logo {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .logo span {
+        margin: 0;
+    }
+
+    .header_list {
+        justify-content: space-around;
+    }
+
+    .header_list a {
+        margin: 15px;
+        display: block;
+    }
+}
